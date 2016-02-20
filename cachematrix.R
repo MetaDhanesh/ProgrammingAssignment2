@@ -49,7 +49,7 @@ cacheSolve <- function(x, ...) {
     inv <- x$getInverse()
     
     if(!is.null(inv)){
-        print("Retrieving from cache")
+        message("Retrieving from cache")
         
         ## retrieving matrix inverse from cache
         return(inv)
